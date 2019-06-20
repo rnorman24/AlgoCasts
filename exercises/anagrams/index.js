@@ -14,11 +14,11 @@ function anagrams(stringA, stringB) {
 
 function cleanString(str) {
   return str
-  .replace(/[^\w]/g, '')
-  .toLowerCase()
-  .split('')
-  .sort()
-  .join('');
+    .replace(/[^\w]/g, "")
+    .toLowerCase()
+    .split("")
+    .sort()
+    .join("");
 }
 
 module.exports = anagrams;
